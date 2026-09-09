@@ -1,0 +1,11 @@
+{
+  "name": "TSA 减脂版训练表",
+  "short_name": "TSA训练表",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f6f2",
+  "theme_color": "#17181c",
+  "description": "离线训练表：周选择-日切换-目标重量-记录",
+  "icons": []
+}
