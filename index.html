@@ -3864,7 +3864,10 @@ function segRow(options, cur, onPick) {
     var b = el("button", "segbtn" + (o === cur ? " on" : ""));
     b.type = "button";
     b.textContent = o;
-    b.addEventListener("click", function () { onPick(o); });
+    b.addEventListener("click", function () {
+      onPick(o);
+      seg.querySelectorAll(".segbtn").forEach(function (x) { x.classList.toggle("on", x === b); });
+    });
     seg.appendChild(b);
   });
   return seg;
