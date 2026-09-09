@@ -1,0 +1,2425 @@
+{
+ "intro": {
+  "lines": [
+   {
+    "t": "h",
+    "x": "TSA 9周中级力量举计划 v2.0（中文版）"
+   },
+   {
+    "t": "h",
+    "x": "出品: The Strength Athlete (Bryce Lewis / Hani Jazayrli) | 数据源自官方 v2.0"
+   },
+   {
+    "t": "h",
+    "x": "结构: W1-4容量期 → W5减载 → W6-8巅峰期 → W9测试周 | 每周4练: 深蹲2次/卧推3次/硬拉2次(含暂停拉)"
+   },
+   {
+    "t": "h",
+    "x": "第一步：在下方黄色格填入你的 1RM（kg），全表重量自动计算"
+   },
+   {
+    "t": "h",
+    "x": "深蹲 1RM (kg)"
+   },
+   {
+    "t": "p",
+    "x": "210"
+   },
+   {
+    "t": "p",
+    "x": "减脂期建议输入 = 当前真实极限 × 0.92~0.95，宁轻勿重"
+   },
+   {
+    "t": "h",
+    "x": "卧推 1RM (kg)"
+   },
+   {
+    "t": "p",
+    "x": "135"
+   },
+   {
+    "t": "p",
+    "x": "同上；预填值为示例，按你测试周结果修改"
+   },
+   {
+    "t": "h",
+    "x": "硬拉 1RM (kg)"
+   },
+   {
+    "t": "p",
+    "x": "220"
+   },
+   {
+    "t": "p",
+    "x": "同上"
+   },
+   {
+    "t": "h",
+    "x": "RPE 对照表"
+   },
+   {
+    "t": "h",
+    "x": "RPE 10 = 极限，再也做不了1次 | RPE 9 = 还能做1次 | RPE 8 = 还能做2次 | RPE 7 = 还能做3次"
+   },
+   {
+    "t": "h",
+    "x": "带 RPE 的组不指定重量：选一个做完后余力达标的重量。RPE 单次用爬坡法找：每把涨约5%，RPE逐把+1，到目标RPE为止"
+   },
+   {
+    "t": "h",
+    "x": "组间休息"
+   },
+   {
+    "t": "h",
+    "x": "主项顶组 3-5分钟 | 回退组/主项容量组 2-3分钟 | 辅助 60-90秒"
+   },
+   {
+    "t": "h",
+    "x": "减脂期使用规则（个性化修改，重要）"
+   },
+   {
+    "t": "h",
+    "x": "1. W6-8 巅峰期顶组 RPE 封顶 8-8.5（原计划的 @9 不做）；W9 第4天不测真极限，改做 RPE 8-9 重单次"
+   },
+   {
+    "t": "h",
+    "x": "2. 减脂期 1RM 输入值用真实极限的 92-95%，让整个标尺偏轻；两个周期之间不加重"
+   },
+   {
+    "t": "h",
+    "x": "3. 时间压缩: D3 辅助可砍到2个动作; D2 卧推 W1-4 可由5×4减为4×4"
+   },
+   {
+    "t": "h",
+    "x": "4. 肩部补充(置换不追加): D3 用站姿实力推 3×5-8 @RPE7 替换腿举; D2 结束加面拉 3×15-20"
+   },
+   {
+    "t": "h",
+    "x": "5. 警报信号: 同重量 RPE 连续两周明显变重 → 缩减缺口或插入维持周; 力量连降2-3周 → 回检饮食"
+   },
+   {
+    "t": "h",
+    "x": "各周一览"
+   },
+   {
+    "t": "h",
+    "x": "W1-4 容量期: 重量每周+2~3%，感觉应该'中等偏轻'，W1如果觉得重说明1RM输高了"
+   },
+   {
+    "t": "h",
+    "x": "W5 减载: 不许跳过——前4周攒的疲劳靠这周释放，巅峰期才出得来"
+   },
+   {
+    "t": "h",
+    "x": "W6-8 巅峰期: 顶组按RPE走，回退组按百分比走; W9 测试周: 前两天轻量，第3天休息，第4天测试"
+   },
+   {
+    "t": "h",
+    "x": "参考: 官方免费页 thestrengthathlete.com/freebies | 介绍 liftvault.com/programs/powerlifting/tsa-9-week-intermediate-program/"
+   }
+  ]
+ },
+ "weeks": [
+  {
+   "n": 1,
+   "title": "第 1 周 — 容量期",
+   "days": [
+    {
+     "title": "第 1 天 — 深蹲(顶组+回退) + 卧推(肌肥大向) — 建议周一",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "1×3",
+       "intensity": "80%",
+       "rest": "3分钟",
+       "note": "顶组",
+       "family": "squat",
+       "pct": 80.0,
+       "rpe": false,
+       "orig": "167.5"
+      },
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "3×8",
+       "intensity": "69%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "squat",
+       "pct": 69.0,
+       "rpe": false,
+       "orig": "145"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "3×8",
+       "intensity": "69%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 69.0,
+       "rpe": false,
+       "orig": "92.5"
+      },
+      {
+       "name": "窄距卧推 Close-Grip Bench",
+       "sets": "3×6",
+       "intensity": "RPE 7",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "4×10-12",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "弹力带反向飞鸟 Band Pull-Apart",
+       "sets": "3×30",
+       "intensity": "",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": false,
+       "orig": ""
+      }
+     ]
+    },
+    {
+     "title": "第 2 天 — 硬拉 + 卧推(爆发力向) — 建议周二",
+     "ex": [
+      {
+       "name": "硬拉 Deadlift",
+       "sets": "4×5",
+       "intensity": "74%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 74.0,
+       "rpe": false,
+       "orig": "162.5"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "5×4",
+       "intensity": "72%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 72.0,
+       "rpe": false,
+       "orig": "97.5"
+      },
+      {
+       "name": "潘德雷划船 Pendlay Row",
+       "sets": "3×5-7",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "罗马椅背屈伸 Back Extension",
+       "sets": "3×10-12",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "引体向上 Pull-Up",
+       "sets": "3×10",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 3 天 — 深蹲(容量) + 辅助 — 建议周四",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "6×4",
+       "intensity": "73%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "squat",
+       "pct": 73.0,
+       "rpe": false,
+       "orig": "152.5"
+      },
+      {
+       "name": "哑铃飞鸟 Chest Fly",
+       "sets": "3×8-10",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "腿举 Leg Press",
+       "sets": "3×8-10",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "3×10-12",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "哑铃侧平举 Lateral Raise",
+       "sets": "3×12-15",
+       "intensity": "RPE 7.5",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 4 天 — 卧推(单次+回退) + 暂停硬拉 — 建议周五",
+     "ex": [
+      {
+       "name": "卧推 Bench Press",
+       "sets": "1×1",
+       "intensity": "RPE 7",
+       "rest": "3分钟",
+       "note": "顶组单次",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 120 kg)"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "3×5",
+       "intensity": "77%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "bench",
+       "pct": 77.0,
+       "rpe": false,
+       "orig": "105"
+      },
+      {
+       "name": "暂停硬拉(离地约2.5cm停住) Paused Deadlift",
+       "sets": "4×4",
+       "intensity": "67%(硬拉1RM)",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 67.0,
+       "rpe": false,
+       "orig": "147.5"
+      },
+      {
+       "name": "抬腿卧推(无腿驱动) Legs-Up Bench",
+       "sets": "3×6",
+       "intensity": "RPE 7",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "俯身杠铃划船 Bent-Over Row",
+       "sets": "3×6-8",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "高位下拉 Lat Pulldown",
+       "sets": "3×10-12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "第 2 周 — 容量期",
+   "days": [
+    {
+     "title": "第 1 天 — 深蹲(顶组+回退) + 卧推(肌肥大向) — 建议周一",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "1×3",
+       "intensity": "82%",
+       "rest": "3分钟",
+       "note": "顶组",
+       "family": "squat",
+       "pct": 82.0,
+       "rpe": false,
+       "orig": "172.5"
+      },
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "3×8",
+       "intensity": "71%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "squat",
+       "pct": 71.0,
+       "rpe": false,
+       "orig": "150"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "3×8",
+       "intensity": "71%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 71.0,
+       "rpe": false,
+       "orig": "95"
+      },
+      {
+       "name": "窄距卧推 Close-Grip Bench",
+       "sets": "3×6",
+       "intensity": "RPE 7.5",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "4×10-12",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "弹力带反向飞鸟 Band Pull-Apart",
+       "sets": "3×30",
+       "intensity": "",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": false,
+       "orig": ""
+      }
+     ]
+    },
+    {
+     "title": "第 2 天 — 硬拉 + 卧推(爆发力向) — 建议周二",
+     "ex": [
+      {
+       "name": "硬拉 Deadlift",
+       "sets": "5×5",
+       "intensity": "77%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 77.0,
+       "rpe": false,
+       "orig": "170"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "5×4",
+       "intensity": "74%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 74.0,
+       "rpe": false,
+       "orig": "100"
+      },
+      {
+       "name": "潘德雷划船 Pendlay Row",
+       "sets": "3×5-7",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "罗马椅背屈伸 Back Extension",
+       "sets": "3×10-12",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "引体向上 Pull-Up",
+       "sets": "3×10",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 3 天 — 深蹲(容量) + 辅助 — 建议周四",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "6×4",
+       "intensity": "75%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "squat",
+       "pct": 75.0,
+       "rpe": false,
+       "orig": "157.5"
+      },
+      {
+       "name": "哑铃飞鸟 Chest Fly",
+       "sets": "3×8-10",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "腿举 Leg Press",
+       "sets": "3×8-10",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "3×10-12",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "哑铃侧平举 Lateral Raise",
+       "sets": "3×12-15",
+       "intensity": "RPE 7.5",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 4 天 — 卧推(单次+回退) + 暂停硬拉 — 建议周五",
+     "ex": [
+      {
+       "name": "卧推 Bench Press",
+       "sets": "1×1",
+       "intensity": "RPE 7.5",
+       "rest": "3分钟",
+       "note": "顶组单次",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 122.5 kg)"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "3×5",
+       "intensity": "79%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "bench",
+       "pct": 79.0,
+       "rpe": false,
+       "orig": "107.5"
+      },
+      {
+       "name": "暂停硬拉(离地约2.5cm停住) Paused Deadlift",
+       "sets": "4×4",
+       "intensity": "69%(硬拉1RM)",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 69.0,
+       "rpe": false,
+       "orig": "152.5"
+      },
+      {
+       "name": "抬腿卧推(无腿驱动) Legs-Up Bench",
+       "sets": "3×6",
+       "intensity": "RPE 7.5",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "俯身杠铃划船 Bent-Over Row",
+       "sets": "3×6-8",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "高位下拉 Lat Pulldown",
+       "sets": "3×10-12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "第 3 周 — 容量期",
+   "days": [
+    {
+     "title": "第 1 天 — 深蹲(顶组+回退) + 卧推(肌肥大向) — 建议周一",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "1×3",
+       "intensity": "84%",
+       "rest": "3分钟",
+       "note": "顶组",
+       "family": "squat",
+       "pct": 84.0,
+       "rpe": false,
+       "orig": "177.5"
+      },
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "3×7",
+       "intensity": "73%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "squat",
+       "pct": 73.0,
+       "rpe": false,
+       "orig": "152.5"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "4×7",
+       "intensity": "73%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 73.0,
+       "rpe": false,
+       "orig": "97.5"
+      },
+      {
+       "name": "窄距卧推 Close-Grip Bench",
+       "sets": "3×6",
+       "intensity": "RPE 8",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "4×10-12",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "弹力带反向飞鸟 Band Pull-Apart",
+       "sets": "3×30",
+       "intensity": "",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": false,
+       "orig": ""
+      }
+     ]
+    },
+    {
+     "title": "第 2 天 — 硬拉 + 卧推(爆发力向) — 建议周二",
+     "ex": [
+      {
+       "name": "硬拉 Deadlift",
+       "sets": "5×4",
+       "intensity": "79%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 79.0,
+       "rpe": false,
+       "orig": "175"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "5×4",
+       "intensity": "76%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 76.0,
+       "rpe": false,
+       "orig": "102.5"
+      },
+      {
+       "name": "潘德雷划船 Pendlay Row",
+       "sets": "3×5-7",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "引体向上 Pull-Up",
+       "sets": "3×12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "罗马椅背屈伸 Back Extension",
+       "sets": "3×10-12",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 3 天 — 深蹲(容量) + 辅助 — 建议周四",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "6×4",
+       "intensity": "77%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "squat",
+       "pct": 77.0,
+       "rpe": false,
+       "orig": "162.5"
+      },
+      {
+       "name": "哑铃飞鸟 Chest Fly",
+       "sets": "3×8-10",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "腿举 Leg Press",
+       "sets": "3×8-10",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "3×10-12",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "哑铃侧平举 Lateral Raise",
+       "sets": "3×12-15",
+       "intensity": "RPE 7.5",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 4 天 — 卧推(单次+回退) + 暂停硬拉 — 建议周五",
+     "ex": [
+      {
+       "name": "卧推 Bench Press",
+       "sets": "1×1",
+       "intensity": "RPE 8",
+       "rest": "3分钟",
+       "note": "顶组单次",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 125 kg)"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "3×5",
+       "intensity": "81%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "bench",
+       "pct": 81.0,
+       "rpe": false,
+       "orig": "110"
+      },
+      {
+       "name": "暂停硬拉(离地约2.5cm停住) Paused Deadlift",
+       "sets": "4×4",
+       "intensity": "71%(硬拉1RM)",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 71.0,
+       "rpe": false,
+       "orig": "155"
+      },
+      {
+       "name": "抬腿卧推(无腿驱动) Legs-Up Bench",
+       "sets": "3×6",
+       "intensity": "RPE 8",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "俯身杠铃划船 Bent-Over Row",
+       "sets": "3×6-8",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "高位下拉 Lat Pulldown",
+       "sets": "3×10-12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "第 4 周 — 容量期",
+   "days": [
+    {
+     "title": "第 1 天 — 深蹲(顶组+回退) + 卧推(肌肥大向) — 建议周一",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "1×3",
+       "intensity": "86%",
+       "rest": "3分钟",
+       "note": "顶组",
+       "family": "squat",
+       "pct": 86.0,
+       "rpe": false,
+       "orig": "180"
+      },
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "3×7",
+       "intensity": "75%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "squat",
+       "pct": 75.0,
+       "rpe": false,
+       "orig": "157.5"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "4×7",
+       "intensity": "75%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 75.0,
+       "rpe": false,
+       "orig": "102.5"
+      },
+      {
+       "name": "窄距卧推 Close-Grip Bench",
+       "sets": "3×6",
+       "intensity": "RPE 8.5",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "4×10-12",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "弹力带反向飞鸟 Band Pull-Apart",
+       "sets": "3×30",
+       "intensity": "",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": false,
+       "orig": ""
+      }
+     ]
+    },
+    {
+     "title": "第 2 天 — 硬拉 + 卧推(爆发力向) — 建议周二",
+     "ex": [
+      {
+       "name": "硬拉 Deadlift",
+       "sets": "6×4",
+       "intensity": "81%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 81.0,
+       "rpe": false,
+       "orig": "177.5"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "5×4",
+       "intensity": "78%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 78.0,
+       "rpe": false,
+       "orig": "105"
+      },
+      {
+       "name": "潘德雷划船 Pendlay Row",
+       "sets": "3×5-7",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "引体向上 Pull-Up",
+       "sets": "3×12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "罗马椅背屈伸 Back Extension",
+       "sets": "3×10-12",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 3 天 — 深蹲(容量) + 辅助 — 建议周四",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "6×4",
+       "intensity": "79%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "squat",
+       "pct": 79.0,
+       "rpe": false,
+       "orig": "165"
+      },
+      {
+       "name": "哑铃飞鸟 Chest Fly",
+       "sets": "3×8-10",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "腿举 Leg Press",
+       "sets": "3×8-10",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "3×10-12",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "哑铃侧平举 Lateral Raise",
+       "sets": "3×12-15",
+       "intensity": "RPE 7.5",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 4 天 — 卧推(单次+回退) + 暂停硬拉 — 建议周五",
+     "ex": [
+      {
+       "name": "卧推 Bench Press",
+       "sets": "1×1",
+       "intensity": "RPE 8.5",
+       "rest": "3分钟",
+       "note": "顶组单次",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 127.5 kg)"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "3×5",
+       "intensity": "84%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "bench",
+       "pct": 84.0,
+       "rpe": false,
+       "orig": "112.5"
+      },
+      {
+       "name": "暂停硬拉(离地约2.5cm停住) Paused Deadlift",
+       "sets": "4×4",
+       "intensity": "73%(硬拉1RM)",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 73.0,
+       "rpe": false,
+       "orig": "160"
+      },
+      {
+       "name": "抬腿卧推(无腿驱动) Legs-Up Bench",
+       "sets": "3×6",
+       "intensity": "RPE 8.5",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "俯身杠铃划船 Bent-Over Row",
+       "sets": "3×6-8",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "高位下拉 Lat Pulldown",
+       "sets": "3×10-12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "第 5 周 — 减载周",
+   "days": [
+    {
+     "title": "第 1 天 — 深蹲(顶组+回退) + 卧推(肌肥大向) — 建议周一",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "3×5",
+       "intensity": "73%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "squat",
+       "pct": 73.0,
+       "rpe": false,
+       "orig": "152.5"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "3×6",
+       "intensity": "73%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 73.0,
+       "rpe": false,
+       "orig": "97.5"
+      },
+      {
+       "name": "窄距卧推 Close-Grip Bench",
+       "sets": "2×5",
+       "intensity": "RPE 7",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "4×10-12",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "弹力带反向飞鸟 Band Pull-Apart",
+       "sets": "3×30",
+       "intensity": "",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": false,
+       "orig": ""
+      }
+     ]
+    },
+    {
+     "title": "第 2 天 — 硬拉 + 卧推(爆发力向) — 建议周二",
+     "ex": [
+      {
+       "name": "硬拉 Deadlift",
+       "sets": "4×3",
+       "intensity": "79%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 79.0,
+       "rpe": false,
+       "orig": "175"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "5×4",
+       "intensity": "78%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 78.0,
+       "rpe": false,
+       "orig": "105"
+      },
+      {
+       "name": "潘德雷划船 Pendlay Row",
+       "sets": "3×5-7",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "罗马椅背屈伸 Back Extension",
+       "sets": "3×10-12",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "引体向上 Pull-Up",
+       "sets": "3×10",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 3 天 — 深蹲(容量) + 辅助 — 建议周四",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "5×4",
+       "intensity": "75%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "squat",
+       "pct": 75.0,
+       "rpe": false,
+       "orig": "157.5"
+      },
+      {
+       "name": "哑铃飞鸟 Chest Fly",
+       "sets": "3×8-10",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "腿举 Leg Press",
+       "sets": "3×8-10",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "3×10-12",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "哑铃侧平举 Lateral Raise",
+       "sets": "3×12-15",
+       "intensity": "RPE 7.5",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 4 天 — 卧推(单次+回退) + 暂停硬拉 — 建议周五",
+     "ex": [
+      {
+       "name": "卧推 Bench Press",
+       "sets": "3×4",
+       "intensity": "78%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 78.0,
+       "rpe": false,
+       "orig": "105"
+      },
+      {
+       "name": "暂停硬拉(离地约2.5cm停住) Paused Deadlift",
+       "sets": "4×3",
+       "intensity": "72%(硬拉1RM)",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 72.0,
+       "rpe": false,
+       "orig": "157.5"
+      },
+      {
+       "name": "抬腿卧推(无腿驱动) Legs-Up Bench",
+       "sets": "2×5",
+       "intensity": "RPE 8.5",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "俯身杠铃划船 Bent-Over Row",
+       "sets": "3×6-8",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "高位下拉 Lat Pulldown",
+       "sets": "3×10-12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "第 6 周 — 巅峰期",
+   "days": [
+    {
+     "title": "第 1 天 — 深蹲(顶组+回退) + 卧推(肌肥大向) — 建议周一",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "1×1",
+       "intensity": "RPE 6.5",
+       "rest": "3分钟",
+       "note": "顶组单次",
+       "family": "squat",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 185 kg)"
+      },
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "5×3",
+       "intensity": "85%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "squat",
+       "pct": 85.0,
+       "rpe": false,
+       "orig": "177.5"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "4×6",
+       "intensity": "75%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 75.0,
+       "rpe": false,
+       "orig": "102.5"
+      },
+      {
+       "name": "窄距卧推 Close-Grip Bench",
+       "sets": "3×5",
+       "intensity": "RPE 7",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "4×10-12",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "弹力带反向飞鸟 Band Pull-Apart",
+       "sets": "3×30",
+       "intensity": "",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": false,
+       "orig": ""
+      }
+     ]
+    },
+    {
+     "title": "第 2 天 — 硬拉 + 卧推(爆发力向) — 建议周二",
+     "ex": [
+      {
+       "name": "硬拉 Deadlift",
+       "sets": "1×2",
+       "intensity": "RPE 7",
+       "rest": "3分钟",
+       "note": "顶组",
+       "family": "dead",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 190 kg)"
+      },
+      {
+       "name": "硬拉 Deadlift",
+       "sets": "4×3",
+       "intensity": "82%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "dead",
+       "pct": 82.0,
+       "rpe": false,
+       "orig": "180"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "5×4",
+       "intensity": "80%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 80.0,
+       "rpe": false,
+       "orig": "107.5"
+      },
+      {
+       "name": "潘德雷划船 Pendlay Row",
+       "sets": "3×5-7",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "引体向上 Pull-Up",
+       "sets": "3×12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "罗马椅背屈伸 Back Extension",
+       "sets": "3×10-12",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 3 天 — 深蹲(容量) + 辅助 — 建议周四",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "5×4",
+       "intensity": "76%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "squat",
+       "pct": 76.0,
+       "rpe": false,
+       "orig": "160"
+      },
+      {
+       "name": "哑铃飞鸟 Chest Fly",
+       "sets": "3×8-10",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "腿举 Leg Press",
+       "sets": "3×8-10",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "3×10-12",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "哑铃侧平举 Lateral Raise",
+       "sets": "3×12-15",
+       "intensity": "RPE 7.5",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 4 天 — 卧推(单次+回退) + 暂停硬拉 — 建议周五",
+     "ex": [
+      {
+       "name": "卧推 Bench Press",
+       "sets": "2×1",
+       "intensity": "RPE 7",
+       "rest": "3分钟",
+       "note": "顶组单次×2",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 120 kg)"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "3×4",
+       "intensity": "81%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "bench",
+       "pct": 81.0,
+       "rpe": false,
+       "orig": "110"
+      },
+      {
+       "name": "暂停硬拉(离地约2.5cm停住) Paused Deadlift",
+       "sets": "5×3",
+       "intensity": "74%(硬拉1RM)",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 74.0,
+       "rpe": false,
+       "orig": "162.5"
+      },
+      {
+       "name": "抬腿卧推(无腿驱动) Legs-Up Bench",
+       "sets": "3×5",
+       "intensity": "RPE 7",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "俯身杠铃划船 Bent-Over Row",
+       "sets": "3×6-8",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "高位下拉 Lat Pulldown",
+       "sets": "3×10-12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "第 7 周 — 巅峰期",
+   "days": [
+    {
+     "title": "第 1 天 — 深蹲(顶组+回退) + 卧推(肌肥大向) — 建议周一",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "1×1",
+       "intensity": "RPE 7.5",
+       "rest": "3分钟",
+       "note": "顶组单次",
+       "family": "squat",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 190 kg)"
+      },
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "5×3",
+       "intensity": "87%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "squat",
+       "pct": 87.0,
+       "rpe": false,
+       "orig": "182.5"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "4×6",
+       "intensity": "77%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 77.0,
+       "rpe": false,
+       "orig": "105"
+      },
+      {
+       "name": "窄距卧推 Close-Grip Bench",
+       "sets": "3×5",
+       "intensity": "RPE 7",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "4×10-12",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "弹力带反向飞鸟 Band Pull-Apart",
+       "sets": "3×30",
+       "intensity": "",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": false,
+       "orig": ""
+      }
+     ]
+    },
+    {
+     "title": "第 2 天 — 硬拉 + 卧推(爆发力向) — 建议周二",
+     "ex": [
+      {
+       "name": "硬拉 Deadlift",
+       "sets": "1×1",
+       "intensity": "RPE 8",
+       "rest": "3分钟",
+       "note": "顶组单次",
+       "family": "dead",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 202.5 kg)"
+      },
+      {
+       "name": "硬拉 Deadlift",
+       "sets": "5×2",
+       "intensity": "84%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "dead",
+       "pct": 84.0,
+       "rpe": false,
+       "orig": "185"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "5×4",
+       "intensity": "82%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 82.0,
+       "rpe": false,
+       "orig": "110"
+      },
+      {
+       "name": "潘德雷划船 Pendlay Row",
+       "sets": "3×5-7",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "引体向上 Pull-Up",
+       "sets": "3×12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "罗马椅背屈伸 Back Extension",
+       "sets": "3×10-12",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 3 天 — 深蹲(容量) + 辅助 — 建议周四",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "5×3",
+       "intensity": "78%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "squat",
+       "pct": 78.0,
+       "rpe": false,
+       "orig": "165"
+      },
+      {
+       "name": "哑铃飞鸟 Chest Fly",
+       "sets": "3×8-10",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "腿举 Leg Press",
+       "sets": "3×8-10",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "3×10-12",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "哑铃侧平举 Lateral Raise",
+       "sets": "3×12-15",
+       "intensity": "RPE 7.5",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 4 天 — 卧推(单次+回退) + 暂停硬拉 — 建议周五",
+     "ex": [
+      {
+       "name": "卧推 Bench Press",
+       "sets": "2×1",
+       "intensity": "RPE 8",
+       "rest": "3分钟",
+       "note": "顶组单次×2",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 125 kg)"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "3×4",
+       "intensity": "84%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "bench",
+       "pct": 84.0,
+       "rpe": false,
+       "orig": "112.5"
+      },
+      {
+       "name": "暂停硬拉(离地约2.5cm停住) Paused Deadlift",
+       "sets": "5×3",
+       "intensity": "76%(硬拉1RM)",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 76.0,
+       "rpe": false,
+       "orig": "167.5"
+      },
+      {
+       "name": "抬腿卧推(无腿驱动) Legs-Up Bench",
+       "sets": "3×5",
+       "intensity": "RPE 7.5",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "俯身杠铃划船 Bent-Over Row",
+       "sets": "3×6-8",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "高位下拉 Lat Pulldown",
+       "sets": "3×10-12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "title": "第 8 周 — 巅峰期",
+   "days": [
+    {
+     "title": "第 1 天 — 深蹲(顶组+回退) + 卧推(肌肥大向) — 建议周一",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "1×1",
+       "intensity": "RPE 8.5",
+       "rest": "3分钟",
+       "note": "顶组单次",
+       "family": "squat",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 197.5 kg)"
+      },
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "5×2",
+       "intensity": "89%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "squat",
+       "pct": 89.0,
+       "rpe": false,
+       "orig": "187.5"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "4×5",
+       "intensity": "79%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 79.0,
+       "rpe": false,
+       "orig": "107.5"
+      },
+      {
+       "name": "窄距卧推 Close-Grip Bench",
+       "sets": "3×5",
+       "intensity": "RPE 7",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "4×10-12",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "弹力带反向飞鸟 Band Pull-Apart",
+       "sets": "3×30",
+       "intensity": "",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": false,
+       "orig": ""
+      }
+     ]
+    },
+    {
+     "title": "第 2 天 — 硬拉 + 卧推(爆发力向) — 建议周二",
+     "ex": [
+      {
+       "name": "硬拉 Deadlift",
+       "sets": "1×1",
+       "intensity": "RPE 8.5",
+       "rest": "3分钟",
+       "note": "顶组单次",
+       "family": "dead",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 207.5 kg)"
+      },
+      {
+       "name": "硬拉 Deadlift",
+       "sets": "4×2",
+       "intensity": "86%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "dead",
+       "pct": 86.0,
+       "rpe": false,
+       "orig": "190"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "5×3",
+       "intensity": "84%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 84.0,
+       "rpe": false,
+       "orig": "112.5"
+      },
+      {
+       "name": "潘德雷划船 Pendlay Row",
+       "sets": "3×5-7",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "引体向上 Pull-Up",
+       "sets": "3×12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "罗马椅背屈伸 Back Extension",
+       "sets": "3×10-12",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 3 天 — 深蹲(容量) + 辅助 — 建议周四",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "5×3",
+       "intensity": "80%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "squat",
+       "pct": 80.0,
+       "rpe": false,
+       "orig": "167.5"
+      },
+      {
+       "name": "哑铃飞鸟 Chest Fly",
+       "sets": "3×8-10",
+       "intensity": "RPE 7",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "腿举 Leg Press",
+       "sets": "3×8-10",
+       "intensity": "RPE 7.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "上斜哑铃划船(胸托) Incline Row",
+       "sets": "3×10-12",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "哑铃侧平举 Lateral Raise",
+       "sets": "3×12-15",
+       "intensity": "RPE 7.5",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    },
+    {
+     "title": "第 4 天 — 卧推(单次+回退) + 暂停硬拉 — 建议周五",
+     "ex": [
+      {
+       "name": "卧推 Bench Press",
+       "sets": "1×1",
+       "intensity": "RPE 9(减脂期封顶8.5)",
+       "rest": "3分钟",
+       "note": "顶组单次",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选(约 127.5 kg)"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "4×3",
+       "intensity": "86%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "bench",
+       "pct": 86.0,
+       "rpe": false,
+       "orig": "115"
+      },
+      {
+       "name": "暂停硬拉(离地约2.5cm停住) Paused Deadlift",
+       "sets": "5×2",
+       "intensity": "78%(硬拉1RM)",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 78.0,
+       "rpe": false,
+       "orig": "172.5"
+      },
+      {
+       "name": "抬腿卧推(无腿驱动) Legs-Up Bench",
+       "sets": "3×5",
+       "intensity": "RPE 8",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "俯身杠铃划船 Bent-Over Row",
+       "sets": "3×6-8",
+       "intensity": "RPE 8",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "高位下拉 Lat Pulldown",
+       "sets": "3×10-12",
+       "intensity": "RPE 8.5",
+       "rest": "90秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "title": "第 9 周 — 测试周",
+   "days": [
+    {
+     "title": "第 1 天 — 深蹲(顶组+回退) + 卧推(肌肥大向) — 建议周一",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "5×2",
+       "intensity": "80%",
+       "rest": "3分钟",
+       "note": "",
+       "family": "squat",
+       "pct": 80.0,
+       "rpe": false,
+       "orig": "167.5"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "5×4",
+       "intensity": "81%",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": 81.0,
+       "rpe": false,
+       "orig": "110"
+      },
+      {
+       "name": "窄距卧推 Close-Grip Bench",
+       "sets": "3×5",
+       "intensity": "轻重量",
+       "rest": "2分钟",
+       "note": "",
+       "family": "bench",
+       "pct": null,
+       "rpe": false,
+       "orig": ""
+      },
+      {
+       "name": "暂停硬拉(离地约2.5cm停住) Paused Deadlift",
+       "sets": "5×1",
+       "intensity": "75%(硬拉1RM)",
+       "rest": "3分钟",
+       "note": "",
+       "family": "dead",
+       "pct": 75.0,
+       "rpe": false,
+       "orig": "165"
+      },
+      {
+       "name": "弹力带反向飞鸟 Band Pull-Apart",
+       "sets": "3×30",
+       "intensity": "",
+       "rest": "60秒",
+       "note": "",
+       "family": "none",
+       "pct": null,
+       "rpe": false,
+       "orig": ""
+      }
+     ]
+    },
+    {
+     "title": "第 2 天 — 硬拉 + 卧推(爆发力向) — 建议周二",
+     "ex": [
+      {
+       "name": "卧推 Bench Press",
+       "sets": "1×1",
+       "intensity": "86%",
+       "rest": "3分钟",
+       "note": "开把练习",
+       "family": "bench",
+       "pct": 86.0,
+       "rpe": false,
+       "orig": "115"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "5×3",
+       "intensity": "78%",
+       "rest": "3分钟",
+       "note": "回退组",
+       "family": "bench",
+       "pct": 78.0,
+       "rpe": false,
+       "orig": "105"
+      }
+     ]
+    },
+    {
+     "title": "第 3 天 — 深蹲(容量) + 辅助 — 建议周四",
+     "ex": [
+      {
+       "name": "休息（测试前完全休息日）",
+       "sets": "",
+       "intensity": "",
+       "rest": "",
+       "note": "",
+       "family": "none",
+       "pct": null
+      }
+     ]
+    },
+    {
+     "title": "第 4 天 — 卧推(单次+回退) + 暂停硬拉 — 建议周五",
+     "ex": [
+      {
+       "name": "杠铃深蹲 Squat",
+       "sets": "1×1",
+       "intensity": "RPE 8-9",
+       "rest": "3分钟",
+       "note": "减脂期:加到RPE 8-9重单次即收工,不测真极限",
+       "family": "squat",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "卧推 Bench Press",
+       "sets": "1×1",
+       "intensity": "RPE 8-9",
+       "rest": "3分钟",
+       "note": "同上;非减脂期才按 开把90-92%→95-97%→新PR 流程测试",
+       "family": "bench",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      },
+      {
+       "name": "硬拉 Deadlift",
+       "sets": "1×1",
+       "intensity": "RPE 8-9",
+       "rest": "3分钟",
+       "note": "同上",
+       "family": "dead",
+       "pct": null,
+       "rpe": true,
+       "orig": "按RPE自选"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "total": 188
+}
