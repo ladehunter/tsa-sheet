@@ -40,6 +40,8 @@ var DIET_RULES = [
 ];
 
 var CARDIO_RULE_LINES = [
+  "跑法: 爬坡10min(持速−1.0→持速) + 持速10min + cooldown 2min; 均值含全程",
+  "提档 = 持速与爬坡起点同时 +0.1",
   "体感=费劲 → 冻结配速",
   "峰值HR ≥175 → 本次降速",
   "末尾连续 ≥2 次均值HR ≤150 → 可提 0.1",
@@ -387,7 +389,7 @@ function renderCardio() {
     g.appendChild(inp);
     return g;
   }
-  f.appendChild(numFG("配速(显示值)", "cdPace", "0.1", "如 8.5"));
+  f.appendChild(numFG("持速(km/h)", "cdPace", "0.1", "如 7.1"));
   f.appendChild(numFG("均值HR", "cdAvg", "1", "bpm"));
   f.appendChild(numFG("峰值HR", "cdMax", "1", "bpm"));
 

@@ -3185,12 +3185,17 @@ var LIFTS = { squat: "rm-squat", bench: "rm-bench", dead: "rm-dead" };
 var LIFT_NAME = { squat: "深蹲", bench: "卧推", dead: "硬拉" };
 
 var SEED_CARDIO = [
-  { d: "2026-08-31", t: "跑步", p: 8.5, a: 161, m: 182, f: "正常" },
-  { d: "2026-09-01", t: "跑步", p: 8.5, a: 157, m: 175, f: "正常" },
-  { d: "2026-09-05", t: "跑步", p: 8.5, a: 154, m: 173, f: "正常" },
-  { d: "2026-09-07", t: "跑步", p: 8.6, a: 154, m: 173, f: "更轻松" },
-  { d: "2026-09-08", t: "跑步", p: 8.7, a: 152, m: 170, f: "更轻松" }
+  { d: "2026-08-31", t: "跑步", p: 7.0, a: 161, m: 182, f: "正常" },
+  { d: "2026-09-01", t: "跑步", p: 7.0, a: 157, m: 175, f: "正常" },
+  { d: "2026-09-05", t: "跑步", p: 7.0, a: 154, m: 173, f: "正常" },
+  { d: "2026-09-07", t: "跑步", p: 7.1, a: 154, m: 173, f: "更轻松" },
+  { d: "2026-09-08", t: "跑步", p: 7.1, a: 152, m: 170, f: "更轻松" }
 ];
+var OLD_SEED_SIG = "8.5,8.5,8.5,8.6,8.7|161,157,154,154,152";
+function cardioSig(arr) {
+  if (!arr || arr.length !== 5) return "";
+  return arr.map(function (x) { return x.p; }).join(",") + "|" + arr.map(function (x) { return x.a; }).join(",");
+}
 var SEED_SLEEP = [
   { d: "2026-09-07", v: 58 },
   { d: "2026-09-08", v: 54 }
@@ -3339,6 +3344,7 @@ function loadProgram() {
 }
 function seedNewStores() {
   if (localStorage.getItem(LS_CARDIO) === null) saveJSON(LS_CARDIO, SEED_CARDIO);
+  else if (cardioSig(loadJSON(LS_CARDIO, [])) === OLD_SEED_SIG) saveJSON(LS_CARDIO, SEED_CARDIO);
   if (localStorage.getItem(LS_SLEEP) === null) saveJSON(LS_SLEEP, SEED_SLEEP);
   if (localStorage.getItem(LS_WEIGHT) === null) saveJSON(LS_WEIGHT, []);
 }
@@ -3563,6 +3569,8 @@ var DIET_RULES = [
 ];
 
 var CARDIO_RULE_LINES = [
+  "跑法: 爬坡10min(持速−1.0→持速) + 持速10min + cooldown 2min; 均值含全程",
+  "提档 = 持速与爬坡起点同时 +0.1",
   "体感=费劲 → 冻结配速",
   "峰值HR ≥175 → 本次降速",
   "末尾连续 ≥2 次均值HR ≤150 → 可提 0.1",
@@ -3910,7 +3918,7 @@ function renderCardio() {
     g.appendChild(inp);
     return g;
   }
-  f.appendChild(numFG("配速(显示值)", "cdPace", "0.1", "如 8.5"));
+  f.appendChild(numFG("持速(km/h)", "cdPace", "0.1", "如 7.1"));
   f.appendChild(numFG("均值HR", "cdAvg", "1", "bpm"));
   f.appendChild(numFG("峰值HR", "cdMax", "1", "bpm"));
 

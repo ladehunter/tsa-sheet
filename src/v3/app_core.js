@@ -10,12 +10,17 @@ var LIFTS = { squat: "rm-squat", bench: "rm-bench", dead: "rm-dead" };
 var LIFT_NAME = { squat: "深蹲", bench: "卧推", dead: "硬拉" };
 
 var SEED_CARDIO = [
-  { d: "2026-08-31", t: "跑步", p: 8.5, a: 161, m: 182, f: "正常" },
-  { d: "2026-09-01", t: "跑步", p: 8.5, a: 157, m: 175, f: "正常" },
-  { d: "2026-09-05", t: "跑步", p: 8.5, a: 154, m: 173, f: "正常" },
-  { d: "2026-09-07", t: "跑步", p: 8.6, a: 154, m: 173, f: "更轻松" },
-  { d: "2026-09-08", t: "跑步", p: 8.7, a: 152, m: 170, f: "更轻松" }
+  { d: "2026-08-31", t: "跑步", p: 7.0, a: 161, m: 182, f: "正常" },
+  { d: "2026-09-01", t: "跑步", p: 7.0, a: 157, m: 175, f: "正常" },
+  { d: "2026-09-05", t: "跑步", p: 7.0, a: 154, m: 173, f: "正常" },
+  { d: "2026-09-07", t: "跑步", p: 7.1, a: 154, m: 173, f: "更轻松" },
+  { d: "2026-09-08", t: "跑步", p: 7.1, a: 152, m: 170, f: "更轻松" }
 ];
+var OLD_SEED_SIG = "8.5,8.5,8.5,8.6,8.7|161,157,154,154,152";
+function cardioSig(arr) {
+  if (!arr || arr.length !== 5) return "";
+  return arr.map(function (x) { return x.p; }).join(",") + "|" + arr.map(function (x) { return x.a; }).join(",");
+}
 var SEED_SLEEP = [
   { d: "2026-09-07", v: 58 },
   { d: "2026-09-08", v: 54 }
@@ -164,6 +169,7 @@ function loadProgram() {
 }
 function seedNewStores() {
   if (localStorage.getItem(LS_CARDIO) === null) saveJSON(LS_CARDIO, SEED_CARDIO);
+  else if (cardioSig(loadJSON(LS_CARDIO, [])) === OLD_SEED_SIG) saveJSON(LS_CARDIO, SEED_CARDIO);
   if (localStorage.getItem(LS_SLEEP) === null) saveJSON(LS_SLEEP, SEED_SLEEP);
   if (localStorage.getItem(LS_WEIGHT) === null) saveJSON(LS_WEIGHT, []);
 }
